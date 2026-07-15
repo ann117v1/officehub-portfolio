@@ -1,0 +1,13 @@
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+
+# Conservar Authorization para que PHP valide las credenciales Git.
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Git Smart HTTP pasa primero por el gateway de permisos.
+RewriteRule ^repos/(.+)$ git.php?git_path=$1 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

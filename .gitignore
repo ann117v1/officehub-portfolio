@@ -1,0 +1,17 @@
+/.git/
+/.idea/
+/.vscode/
+/vendor/
+/node_modules/
+/storage/backups/
+/storage/logs/
+/storage/uploads/
+config/*.local.php
+config/*.private.php
+.env
+.env.*
+*.log
+*.sql.gz
+*.zip
+.DS_Store
+Thumbs.db
