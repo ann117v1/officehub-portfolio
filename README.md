@@ -8,7 +8,7 @@ Gestión centralizada de documentación, incidencias, repositorios, tareas y col
 
 <br>
 
-![OfficeHub Preview](docs/screenshots/cover.png)
+![OfficeHub Preview](docs/screenshots/cover.jpg)
 
 <br>
 
@@ -118,15 +118,15 @@ OfficeHub propone reunir estos procesos en un único entorno organizado.
 
 ## Tecnologías
 
-| Capa | Tecnología |
-|---|---|
-| Backend | PHP 8 |
-| Frontend | HTML, CSS y JavaScript |
-| Base de datos | MySQL |
-| Servidor local | Apache / XAMPP |
-| Arquitectura | MVC personalizado |
-| Persistencia | PDO |
-| Control de versiones | Git |
+| Capa                 | Tecnología             |
+| -------------------- | ---------------------- |
+| Backend              | PHP 8                  |
+| Frontend             | HTML, CSS y JavaScript |
+| Base de datos        | MySQL                  |
+| Servidor local       | Apache / XAMPP         |
+| Arquitectura         | MVC personalizado      |
+| Persistencia         | PDO                    |
+| Control de versiones | Git                    |
 
 ---
 
@@ -146,3 +146,4 @@ officehub-portfolio/
 │   ├── Services/       # Servicios e integraciones demostrativas
 │   └── Views/          # Interfaz de usuario
 └── storage/            # Archivos generados por la aplicación
+```
